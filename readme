@@ -1,0 +1,16 @@
+Node.js Email Sending Script
+Este es un script simple creado en Node.js que utiliza las librerías Nodemailer y Brevo para enviar correos electrónicos. Está diseñado para ser compatible con proveedores de correo como Hotmail y Gmail.
+
+Requisitos
+Configuración del entorno:
+
+Crea un archivo .env basado en el archivo env.example.
+Define las siguientes variables:
+BREVO_API_KEY: Tu clave de API de Brevo.
+BREVO_SENDER_EMAIL: La dirección de correo del remitente (verificada en Brevo).
+Configuración en Brevo:
+
+Registra y verifica el correo del remitente en tu cuenta de Brevo desde la sección Configuración → Mis Remitentes.
+
+Ejecucion:
+npm run start

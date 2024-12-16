@@ -10,7 +10,7 @@ const sendMail = async (to, code) => {
         const emailData = {
             sender: {
                 name: "Mi App",
-                email: "marcos.meiller@avalith.net",
+                email: process.env.EMAIL_REMITENTE,
             },
             to: [
                 {
